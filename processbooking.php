@@ -10,7 +10,7 @@
 
     <?php
 
-    $firstname = isset($_POST['firstname']) ? htmlspecialchars($_POST['firstname']) : 'Not provided';
+    $firstname = isset($_POST['firstname']) ?   ($_POST['firstname']) : 'Not provided';
     $lastname = isset($_POST['lastname']) ? htmlspecialchars($_POST['lastname']) : 'Not provided';
     $species = isset($_POST['species']) ? htmlspecialchars($_POST['species']) : 'Not selected';
     $age = isset($_POST['age']) ? htmlspecialchars($_POST['age']) : 'Not provided';
